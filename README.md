@@ -1,3 +1,3 @@
-# Awesome-Pathology-to-Omics
+# Awesome-HistoPathology-to-Omics
 
-A curated list of papers, codes, and resources for cross-modal translation/prediction/generation between pathological imaging and omics (genomics, proteomics, etc.), including pathology-to-mIF image generation, pathology-to-genomic prediction, etc.
+A curated list of papers, codes, and resources for cross-modal translation/prediction/generation between histopathological imaging and omics (genomics, proteomics, etc.), including histopathology-to-mIF image generation, histopathology-to-genomic prediction, etc.
