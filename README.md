@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="https://awesome.re/badge.svg" alt="Awesome">
-  <img src="https://img.shields.io/badge/UPDATE-2026--01--06-orange" alt="Update">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/UPDATE-2026--01--06-orange" alt="Update">
 </p>
 
 ## 🚀 Introduction
