@@ -1,4 +1,4 @@
-<center><h1>Awesome-Histopathology-to-Omics</h1></center>
+<h1 align="center">🧬 Awesome-Histopathology-to-Omics</h1>
 
 <p align="center">
   <img src="https://awesome.re/badge.svg" alt="Awesome">
@@ -6,11 +6,11 @@
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
 </p>
 
-## Introduction
+## 🚀 Introduction
 
 A curated list of papers, codes, and resources for cross-modal translation/prediction/generation between histopathological imaging and omics (genomics, proteomics, etc.), including histopathology-to-mIF image generation, histopathology-to-genomic prediction, etc.
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [Survey/Review/Benchmark Papers List](#surveyreviewbenchmark-papers-list)
 - [Research Papers List](#research-papers-list)
@@ -24,7 +24,7 @@ A curated list of papers, codes, and resources for cross-modal translation/predi
 - [Citation](#citation)
 - [Contact](#contact)
 
-## Survey/Review/Benchmark Papers List
+## 🔎 Survey/Review/Benchmark Papers List
 <details open>
 <summary><b>&nbsp;2025 (6)</b></summary>
 <ul>
@@ -69,7 +69,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
 </ul>
 </details>
 
-## Research Papers List
+## 🔬 Research Papers List
 
 ### Hist to Genomics/Transcriptomics
 
@@ -622,7 +622,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   </ul>
 </details>
 
-## Related Repositories
+## 🔗 Related Repositories
 
 - [computer_vision_spatial_omics](https://github.com/hrlblab/computer_vision_spatial_omics)
 
@@ -632,7 +632,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
 
 - [Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation](https://github.com/ZZhangsm/Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation)
 
-## Contributing​
+## ❤️ Contributing​
 
 Contributions are welcome! Please follow these guidelines:​
 
@@ -675,7 +675,7 @@ Contributions are welcome! Please follow these guidelines:​
 `<img src='./assets/code.png' /> <a href='[CodeURL]' target='_blank'>Code</a>`
 > - If the paper does not provide an abbreviation for their method, please use `【-】`.
 
-## Citation
+## ⭐ Citation
 ​
 If you find this repository useful in your research, please consider citing:
 ```bibtex
@@ -683,6 +683,6 @@ Please Stay Tuned for More Updates!
 Please star this repository if you find it helpful!
 ```
 
-## Contact
+## 📧 Contact
 
 For any questions or suggestions, feel free to open an issue or contact me at [bywu109@gmail.com](mailto:bywu109@gmail.com).
