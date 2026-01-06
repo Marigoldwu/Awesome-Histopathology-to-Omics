@@ -8,42 +8,38 @@
 
 ## 🚀 Introduction
 
-A curated list of papers, codes, and resources for cross-modal translation/prediction/generation between histopathological imaging and omics (genomics, proteomics, etc.), including histopathology-to-mIF image generation, histopathology-to-genomic prediction, etc.
+A curated collection of papers, codes, and resources for cross-modal translation/prediction/generation between histopathological imaging and omics (genomics, proteomics, etc.), including histopathology-to-mIF image generation, histopathology-to-genomic prediction, etc.
 
 ## 📋 Table of Contents
 
-- [Survey/Review/Benchmark Papers List](#surveyreviewbenchmark-papers-list)
-- [Research Papers List](#research-papers-list)
+- [🔎 Survey/Review/Benchmark/Protocol Papers List](#-surveyreviewbenchmark-protocol-papers-list)
+- [🔬 Research Papers List](#-research-papers-list)
   - [Hist to Genomics/Transcriptomics](#hist-to-genomicstranscriptomics)
   - [Hist to Proteomics](#hist-to-proteomics)
   - [Hist to Multi-omics](#hist-to-multi-omics)
   - [Hist to Cell](#hist-to-cell)
-  - [Hist to Pathology](#hist-to-pathology)
-- [Related Repositories](#related-repositories)
-- [Contributing](#contributing)
-- [Citation](#citation)
-- [Contact](#contact)
+  - [Hist to Pathology](-hist-to-pathology)
+- [🔗 Related Repositories](#-related-repositories)
+- [❤️ Contributing](#-contributing)
+- [⭐ Citation](#-citation)
+- [📧 Contact](#-contact)
 
-## 🔎 Survey/Review/Benchmark Papers List
+## 🔎 Survey/Review/Benchmark/Protocol Papers List
 <details open>
 <summary><b>&nbsp;2025 (6)</b></summary>
 <ul>
     <li>
       [10-28] 【<b>Survey</b>】<i>Content Generation Models in Computational Pathology: A
-Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.</i>
+Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE Rev Biomed Eng</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://oar.a-star.edu.sg/storage/o/ozokdvm7xw/content-generation-models-in-computational-pathology.pdf' target='_blank'>Article</a>
     </li>
     <li>
-      [10-14] 【<b>Survey</b>】<i>Computer Vision Methods for Spatial Transcriptomics: A Survey. <b>preprint</b>.</i>
+      [10-14] 【<b>Survey</b>】<i>Computer Vision Methods for Spatial Transcriptomics: A Survey. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.10.13.682148v1.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/hrlblab/computer_vision_spatial_omics' target='_blank'>Code</a>
     </li>
     <li>
-      [05-13] 【<b>Survey</b>】<i>Combining spatial transcriptomics with tissue morphology. <b>NC</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://doi.org/10.1038/s41467-025-58989-8' target='_blank'>Article</a>
-    </li>
-    <li>
-      [09-09] 【<b>Data-quality Benchmark</b>】<i>Impact of Data Quality on Deep Learning Prediction of Spatial Transcriptomics from Histology Images. <b>preprint</b>.</i>
+      [09-09] 【<b>Data-quality Benchmark</b>】<i>Impact of Data Quality on Deep Learning Prediction of Spatial Transcriptomics from Histology Images. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.09.04.674228v1.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/calebhallinan/dataquality_geneprediction' target='_blank'>Code</a>
     </li>
@@ -52,7 +48,11 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/paper.png' /> <a href='https://www.sciencedirect.com/science/article/pii/S1361841525003019' target='_blank'>Article</a>
     </li>
     <li>
-      [02-11] 【<b>HEtoSGEBench</b>】<i>Benchmarking the translational potential of spatial gene expression prediction from histology. <b>NC</b>.</i>
+      [05-13] 【<b>Survey</b>】<i>Combining spatial transcriptomics with tissue morphology. <b>NAT COMMUN</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://doi.org/10.1038/s41467-025-58989-8' target='_blank'>Article</a>
+    </li>
+    <li>
+      [02-11] 【<b>HEtoSGEBench</b>】<i>Benchmarking the translational potential of spatial gene expression prediction from histology. <b>NAT COMMUN</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-025-56618-y' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/SydneyBioX/HEtoSGEBench' target='_blank'>Code</a>
     </li>
@@ -60,11 +60,16 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
 </details>
 
 <details open>
-<summary><b>&nbsp;2024 (1)</b></summary>
+<summary><b>&nbsp;2024 (2)</b></summary>
 <ul>
     <li>
-      [12-01] 【<b>Survey</b>】<i>Computational Methods for Breast Cancer Molecular Profiling through Routine Histopathology: A Review. <b>preprint</b>.</i>
+      [12-01] 【<b>Survey</b>】<i>Computational Methods for Breast Cancer Molecular Profiling through Routine Histopathology: A Review. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2412.10392' target='_blank'>Article</a>
+    </li>
+    <li>
+      [09-16] 【<b>STAMP</b>】<i>From whole-slide image to biomarker prediction: end-to-end weakly supervised deep learning in computational pathology. <b>NAT PROTOC</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2412.10392' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/KatherLab/STAMP' target='_blank'>Code</a>
     </li>
 </ul>
 </details>
@@ -74,11 +79,16 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
 ### Hist to Genomics/Transcriptomics
 
 <details open> <!--2025-->
-  <summary><b>&nbsp;2025 (48)</b></summary>
+  <summary><b>&nbsp;2025 (53)</b></summary>
   <ul>
     <li>
-      [12-16] 【<b>SIGMMA</b>】<i>SIGMMA: Hierarchical Graph-Based Multi-Scale Multi-modal Contrastive Alignment of Histopathology Image and Spatial Transcriptome. <b>preprint</b>.</i>
+      [12-16] 【<b>SIGMMA</b>】<i>SIGMMA: Hierarchical Graph-Based Multi-Scale Multi-modal Contrastive Alignment of Histopathology Image and Spatial Transcriptome. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2511.15464' target='_blank'>Article</a>
+    </li>
+    <li>
+      [12-14] 【<b>STPath</b>】<i>STPath: a generative foundation model for integrating spatial transcriptomics and whole-slide images. <b>NPJDM</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41746-025-02020-3' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/Graph-and-Geometric-Learning/STPath' target='_blank'>Code</a>
     </li>
     <li>
       [12-07] 【<b>STRank </b>】<i>Learning Relative Gene Expression Trends from Pathology Images in Spatial Transcriptomics. <b>NeurIPS</b>.</i>
@@ -95,16 +105,16 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/paper.png' /> <a href='https://ieeexplore.ieee.org/abstract/document/11259187' target='_blank'>Article</a>
     </li>
     <li>
-      [11-27] 【<b>HyperST</b>】<i>HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction. <b>preprint</b>.</i>
+      [11-27] 【<b>HyperST</b>】<i>HyperST: Hierarchical Hyperbolic Learning for Spatial Transcriptomics Prediction. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2511.22107' target='_blank'>Article</a>
     </li>
     <li>
-      [11-27] 【<b>MISO</b>】<i>A deep learning-based multiscale integration of spatial omics with tumor morphology. <b>NC</b>.</i>
+      [11-27] 【<b>MISO</b>】<i>A deep learning-based multiscale integration of spatial omics with tumor morphology. <b>NAT COMMUN</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-025-66691-y' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/owkin/miso_code' target='_blank'>Code</a>
     </li>
     <li>
-      [11-25] 【<b>PixNet</b>】<i>From Spots to Pixels: Dense Spatial Gene Expression Prediction from Histology Images. <b>preprint</b>.</i>
+      [11-25] 【<b>PixNet</b>】<i>From Spots to Pixels: Dense Spatial Gene Expression Prediction from Histology Images. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2503.01347' target='_blank'>Article</a>
     </li>
     <li>
@@ -138,12 +148,17 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/wenwenmin/HisHRST' target='_blank'>Code</a>
     </li>
     <li>
+      [10-05] 【<b>GenAR</b>】<i>GenAR: Next-Scale Autoregressive Generation for Spatial Gene Expression Prediction. <b>PrePrint</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2510.04315v1' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/oyjr/genar' target='_blank'>Code</a>
+    </li>
+    <li>
       [09-25] 【<b>DeepSpot2Cell</b>】<i>DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision. <b>NeurIPS</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://openreview.net/forum?id=ofCkwXQKaz' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/ratschlab/DeepSpot' target='_blank'>Code</a>
     </li>
     <li>
-      [09-21] 【<b>CoMTIP</b>】<i>LEARNING FROM GENE NAMES, EXPRESSION VALUES AND IMAGES: Contrastive Masked Text-Image Pretraining for Spatial Transcriptomics Representation Learning. <b>preprint</b>.</i>
+      [09-21] 【<b>CoMTIP</b>】<i>LEARNING FROM GENE NAMES, EXPRESSION VALUES AND IMAGES: Contrastive Masked Text-Image Pretraining for Spatial Transcriptomics Representation Learning. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2509.16892?' target='_blank'>Article</a>
     </li>
     <li>
@@ -151,6 +166,10 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2506.23827?' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/MCPathology/NH2ST' target='_blank'>Code</a>
     </li>
+    <li>
+      [09-15] 【<b>iSCALE</b>】<i>Scaling up spatial transcriptomics for large-sized tissues: uncovering cellular-level tissue architecture beyond conventional platforms with iSCALE. <b>NAT Methods</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41592-025-02770-8' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/amesch441/iSCALE' target='_blank'>Code</a>
     <li>
       [09-15] 【<b>GHIST</b>】<i>Spatial gene expression at single-cell resolution from histology using deep learning with GHIST. <b>NM</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41592-025-02795-z.pdf' target='_blank'>Article</a>
@@ -162,12 +181,17 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://www.sdu-idea.cn/codes.php?name=FmH2ST' target='_blank'>Code</a>
     </li>
     <li>
-      [09-06] 【<b>SpaFoundation</b>】<i>A histology foundation model for high-resolution spatial omics prediction, tumor detection, and, clustering of spatial transcriptomics. <b>preprint</b>.</i>
+      [09-06] 【<b>SpaFoundation</b>】<i>A histology foundation model for high-resolution spatial omics prediction, tumor detection, and, clustering of spatial transcriptomics. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/biorxiv/early/2025/09/06/2025.08.07.669202.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/NingZhangCSUBio/SpaFoundation' target='_blank'>Code</a>
     </li>
     <li>
-      [08-21] 【<b>SpatialFinder</b>】<i>SpatialFinder: A Human-in-the-Loop Vision-Language Framework for Prioritizing High-Value Regions in Spatial Transcriptomics. <b>preprint</b>.</i>
+      [09-04] 【<b>stImage</b>】<i>stImage: a versatile framework for optimizing spatial transcriptomic analysis through customizable deep histology and location informed integration. <b>BIB</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://doi.org/10.1093/bib/bbaf429' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/YuWang-VUMC/stImage' target='_blank'>Code</a>
+    </li>
+    <li>
+      [08-21] 【<b>SpatialFinder</b>】<i>SpatialFinder: A Human-in-the-Loop Vision-Language Framework for Prioritizing High-Value Regions in Spatial Transcriptomics. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/biorxiv/early/2025/08/21/2025.08.16.670684.full.pdf' target='_blank'>Article</a>
     </li>
     <li>
@@ -190,7 +214,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/ox-ibme-bio-imaging/GenST-workshop-version' target='_blank'>Code</a>
     </li>
     <li>
-      [07-20] 【<b>STimage </b>】<i>Robust and interpretable prediction of gene markers and cell types from spatial transcriptomics data. <b>preprint</b>.</i>
+      [07-20] 【<b>STimage </b>】<i>Robust and interpretable prediction of gene markers and cell types from spatial transcriptomics data. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2023.05.14.540710v2.full' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/BiomedicalMachineLearning/STimage' target='_blank'>Code</a>
     </li>
@@ -199,12 +223,12 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.07.14.664402v1.full.pdf' target='_blank'>Article</a>
     </li>
     <li>
-      [07-08] 【<b>PAST</b>】<i>PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer. <b>preprint</b>.</i>
+      [07-08] 【<b>PAST</b>】<i>PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2507.06418' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/Changchun-Yang/past_sc' target='_blank'>Code</a>
     </li>
     <li>
-      [07-07] 【<b>SPATIA </b>】<i>SPATIA: Multimodal Model for Prediction and Generation of Spatial Cell Phenotypes. <b>preprint</b>.</i>
+      [07-07] 【<b>SPATIA </b>】<i>SPATIA: Multimodal Model for Prediction and Generation of Spatial Cell Phenotypes. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2507.04704v1' target='_blank'>Article</a>
     </li>
     <li>
@@ -213,7 +237,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/cat-moom/Magic' target='_blank'>Code</a>
     </li>
     <li>
-      [07-04] 【<b>PathCLAST</b>】<i>PATHCLAST: PATHWAY-AUGMENTED CONTRASTIVELEARNING WITH ATTENTION FOR SPATIAL TRANSCRIPTOMICS. <b>preprint</b>.</i>
+      [07-04] 【<b>PathCLAST</b>】<i>PATHCLAST: PATHWAY-AUGMENTED CONTRASTIVELEARNING WITH ATTENTION FOR SPATIAL TRANSCRIPTOMICS. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.06.30.662247v1.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/sslim-aidrug/PathCLAST' target='_blank'>Code</a>
     </li>
@@ -223,7 +247,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/QSong-github/HECLIP' target='_blank'>Code</a>
     </li>
     <li>
-      [06-19] 【<b>CarHE </b>】<i>Predicting Spatial Transcriptomics from H&E Image by Pretrained Contrastive Alignment Learning. <b>preprint</b>.</i>
+      [06-19] 【<b>CarHE </b>】<i>Predicting Spatial Transcriptomics from H&E Image by Pretrained Contrastive Alignment Learning. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.06.15.659438v1.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/Jwzouchenlab/CarHE' target='_blank'>Code</a>
     </li>
@@ -233,7 +257,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/HuifangZJU/Vispro' target='_blank'>Code</a>
     </li>
     <li>
-      [06-17] 【<b>HistoTME-v2</b>】<i>Towards interpretable molecular and spatial analysis of the tumor microenvironment from digital histopathology images with HistoTME-v2. <b>preprint</b>.</i>
+      [06-17] 【<b>HistoTME-v2</b>】<i>Towards interpretable molecular and spatial analysis of the tumor microenvironment from digital histopathology images with HistoTME-v2. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.06.11.658673v1.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/spatkar94/HistoTME' target='_blank'>Code</a>
     </li>
@@ -248,11 +272,16 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/GuangyuWangLab2021/Loki' target='_blank'>Code</a>
     </li>
     <li>
-      [04-23] 【<b>VRI</b>】<i>Histology-Based Virtual RNA Inference Identifies Pathways Associated with Metastasis Risk in Colorectal Cancer. <b>preprint</b>.</i>
+      [05-25] 【<b>STFlow</b>】<i>Scalable Generation of Spatial Transcriptomics from Histology Images via Whole-Slide Flow Matching. <b>ICML</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2506.05361' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/Graph-and-Geometric-Learning/STFlow' target='_blank'>Code</a>
+    </li>
+    <li>
+      [04-23] 【<b>VRI</b>】<i>Histology-Based Virtual RNA Inference Identifies Pathways Associated with Metastasis Risk in Colorectal Cancer. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.medrxiv.org/content/10.1101/2025.04.22.25326170.abstract' target='_blank'>Article</a>
     </li>
     <li>
-      [04-20] 【<b>PH2ST</b>】<i>PH2ST: Prompt-Guided Hypergraph Learning for Spatial Transcriptomics Prediction in Whole Slide Images. <b>preprint</b>.</i>
+      [04-20] 【<b>PH2ST</b>】<i>PH2ST: Prompt-Guided Hypergraph Learning for Spatial Transcriptomics Prediction in Whole Slide Images. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2503.16816' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/NIUYI0511/PH2ST/' target='_blank'>Code</a>
     </li>
@@ -262,12 +291,12 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/Dootmaan/M2OST' target='_blank'>Code</a>
     </li>
     <li>
-      [03-16] 【<b>Path2Omics</b>】<i>Path2Omics: Enhanced transcriptomic and methylation prediction accuracy from tumor histopathology. <b>preprint</b>.</i>
+      [03-16] 【<b>Path2Omics</b>】<i>Path2Omics: Enhanced transcriptomic and methylation prediction accuracy from tumor histopathology. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/biorxiv/early/2025/03/16/2025.02.26.640189.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://doi.org/10.5281/zenodo.15016142' target='_blank'>Code</a>
     </li>
     <li>
-      [03-13] 【<b>AGP-Net</b>】<i>AGP-Net: A Universal Network for Gene Expression Prediction of Spatial Transcriptomics. <b>preprint</b>.</i>
+      [03-13] 【<b>AGP-Net</b>】<i>AGP-Net: A Universal Network for Gene Expression Prediction of Spatial Transcriptomics. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.09.642276.full.pdf' target='_blank'>Article</a>
     </li>
     <li>
@@ -276,11 +305,11 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/Junchao-Zhu/MagNet' target='_blank'>Code</a>
     </li>
     <li>
-      [02-22] 【<b>Path2Space</b>】<i>AI-Driven Spatial Transcriptomics Unlocks Large-Scale Breast Cancer Biomarker Discovery from Histopathology. <b>preprint</b>.</i>
+      [02-22] 【<b>Path2Space</b>】<i>AI-Driven Spatial Transcriptomics Unlocks Large-Scale Breast Cancer Biomarker Discovery from Histopathology. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/biorxiv/early/2025/02/22/2024.10.16.618609.full.pdf' target='_blank'>Article</a>
     </li>
     <li>
-      [02-09] 【<b>DeepSpot</b>】<i>DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images. <b>preprint</b>.</i>
+      [02-09] 【<b>DeepSpot</b>】<i>DeepSpot: Leveraging Spatial Context for Enhanced Spatial Transcriptomics Prediction from H&E Images. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v1.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/ratschlab/DeepSpot' target='_blank'>Code</a>
     </li>
@@ -308,7 +337,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
 </details>
 
 <details open> <!--2024-->
-  <summary><b>&nbsp;2024 (16)</b></summary>
+  <summary><b>&nbsp;2024 (19)</b></summary>
   <ul>
     <li>
       [12-19] 【<b>HistoTME</b>】<i>Predicting the tumor microenvironment composition and immunotherapy response in non-small cell lung cancer from digital histopathology images. <b>NPJPO</b>.</i>
@@ -324,21 +353,25 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/paper.png' /> <a href='https://openaccess.thecvf.com/content/CVPR2025/html/Ganguly_MERGE_Multi-faceted_Hierarchical_Graph-based_GNN_for_Gene_Expression_Prediction_from_CVPR_2025_paper.html' target='_blank'>Article</a>
     </li>
     <li>
-      [11-27] 【<b>GeneQuery</b>】<i>GeneQuery: A General QA-based Framework for Spatial Gene Expression Predictions from Histology Images. <b>preprint</b>.</i>
+      [11-27] 【<b>GeneQuery</b>】<i>GeneQuery: A General QA-based Framework for Spatial Gene Expression Predictions from Histology Images. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2411.18391?' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/xy-always/GeneQuery' target='_blank'>Code</a>
     </li>
     <li>
-      [11-25] 【<b>ST-Align</b>】<i>ST-Align: A Multimodal Foundation Model for Image-Gene Alignment in Spatial Transcriptomics. <b>preprint</b>.</i>
+      [11-25] 【<b>ST-Align</b>】<i>ST-Align: A Multimodal Foundation Model for Image-Gene Alignment in Spatial Transcriptomics. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2411.16793' target='_blank'>Article</a>
     </li>
     <li>
-      [11-14] 【<b>SEQUOIA </b>】<i>Digital profiling of gene expression from histology images with linearized attention. <b>NC</b>.</i>
+      [11-15] 【<b>HistoSPACE</b>】<i>HistoSPACE: Histology-inspired spatial transcriptome prediction and characterization engine. <b>Methods</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://doi.org/10.1016/j.ymeth.2024.11.002' target='_blank'>Article</a>
+    </li>
+    <li>
+      [11-14] 【<b>SEQUOIA </b>】<i>Digital profiling of gene expression from histology images with linearized attention. <b>NAT COMMUN</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-024-54182-5' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/gevaertlab/sequoia-pub' target='_blank'>Code</a>
     </li>
     <li>
-      [11-08] 【<b>sCellST</b>】<i>sCellST: a Multiple Instance Learning approach to predict single-cell gene expression from H&E images using spatial transcriptomics. <b>preprint</b>.</i>
+      [11-08] 【<b>sCellST</b>】<i>sCellST: a Multiple Instance Learning approach to predict single-cell gene expression from H&E images using spatial transcriptomics. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/biorxiv/early/2024/11/08/2024.11.07.622225.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/loicchadoutaud/sCellST' target='_blank'>Code</a>
     </li>
@@ -353,12 +386,17 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/QSong-github/HGGEP' target='_blank'>Code</a>
     </li>
     <li>
-      [09-04] 【<b>asGNN</b>】<i>Predicting spatially resolved gene expression via tissue morphology using adaptive spatial GNNs . <b>Bioinfo</b>.</i>
+      [09-26] 【<b>HEMIT</b>】<i>HEMIT: H&E to Multiplex-immunohistochemistry Image Translation with Dual-Branch Pix2pix Generator. <b>Bioinfo</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2403.18501' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/BianChang/HEMIT-DATASET' target='_blank'>Code</a>
+    </li>
+    <li>
+      [09-04] 【<b>asGNN</b>】<i>Predicting spatially resolved gene expression via tissue morphology using adaptive spatial GNNs. <b>Bioinfo</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://doi.org/10.1093/bioinformatics/btae383' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/song0309/asGNN/' target='_blank'>Code</a>
     </li>
     <li>
-      [08-09] 【<b>ResSAT </b>】<i>ResSAT: Enhancing Spatial Transcriptomics Prediction from H&E- Stained Histology Images with Interactive Spot Transformer. <b>preprint</b>.</i>
+      [08-09] 【<b>ResSAT </b>】<i>ResSAT: Enhancing Spatial Transcriptomics Prediction from H&E- Stained Histology Images with Interactive Spot Transformer. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.researchsquare.com/article/rs-4707959/v1' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/Wonderangela/ResSAT' target='_blank'>Code</a>
     </li>
@@ -366,6 +404,11 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       [07-03] 【<b>DeepPT</b>】<i>A deep-learning framework to predict cancer treatment response from histopathology images through imputed transcriptomics. <b>NCancer</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s43018-024-00793-2' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://doi.org/10.5281/zenodo.11125591' target='_blank'>Code</a>
+    </li>
+    <li>
+      [06-22] 【<b>RedeHist </b>】<i>Spatial Transcriptomics Prediction from Histology Images at Single-cellResolution using RedeHist. <b>PrePrint</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2024.06.17.599464v1.full.pdf' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/Roshan1992/RedeFISH' target='_blank'>Code</a>
     </li>
     <li>
       [06-05] 【<b>HE2Gene</b>】<i>HE2Gene: image-to-RNA translation via multi-task learning for spatial transcriptomics data. <b>Bioinfo</b>.</i>
@@ -454,7 +497,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   <summary><b>&nbsp;2021 (1)</b></summary>
   <ul>
     <li>
-      [11-28] 【<b>HisToGene</b>】<i>Leveraging information in spatial transcriptomics to predict super-resolution gene expression from histology images in tumors. <b>preprint</b>.</i>
+      [11-28] 【<b>HisToGene</b>】<i>Leveraging information in spatial transcriptomics to predict super-resolution gene expression from histology images in tumors. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2021.11.28.470212v1.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/maxpmx/HisToGene' target='_blank'>Code</a>
     </li>
@@ -465,7 +508,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   <summary><b>&nbsp;2020 (3)</b></summary>
   <ul>
     <li>
-      [08-03] 【<b>HE2RNA</b>】<i>A deep learning model to predict RNA-Seq expression of tumours from whole slide images. <b>NC</b>.</i>
+      [08-03] 【<b>HE2RNA</b>】<i>A deep learning model to predict RNA-Seq expression of tumours from whole slide images. <b>NAT COMMUN</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-020-17678-4' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/owkin/HE2RNA_code' target='_blank'>Code</a>
     </li>
@@ -475,7 +518,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/jnkather/DeepHistology/releases/tag/v0.2' target='_blank'>Code</a>
     </li>
     <li>
-      [06-22] 【<b>ST-Net</b>】<i>Integrating spatial gene expression and breast tumour morphology via deep learning. <b>NBE</b>.</i>
+      [06-22] 【<b>ST-Net</b>】<i>Integrating spatial gene expression and breast tumour morphology via deep learning. <b>NAT BIOMED ENG‌</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41551-020-0578-x' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/bryanhe/ST-Net' target='_blank'>Code</a>
     </li>
@@ -510,7 +553,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   <summary><b>&nbsp;2025 (5)</b></summary>
   <ul>
     <li>
-      [08-16] 【<b>ROISE</b>】<i>ROSIE: AI generation of multiplex immunofluorescence staining from histopathology images. <b>NC</b>.</i>
+      [08-16] 【<b>ROISE</b>】<i>ROSIE: AI generation of multiplex immunofluorescence staining from histopathology images. <b>NAT COMMUN</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-025-62346-0.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://gitlab.com/enable-medicine-public/rosie' target='_blank'>Code</a>
     </li>
@@ -520,7 +563,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://github.com/ratschlab/HistoPlexer' target='_blank'>Code</a>
     </li>
     <li>
-      [12-12] 【<b>Eva</b>】<i>Modeling patient tissues at molecular resolution with Eva. <b>preprint</b>.</i>
+      [12-12] 【<b>Eva</b>】<i>Modeling patient tissues at molecular resolution with Eva. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.64898/2025.12.10.693553v1' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/YAndrewL/Eva' target='_blank'>Code</a>
     </li>
@@ -530,7 +573,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
       <img src='./assets/code.png' /> <a href='https://aka.ms/gigatime_code' target='_blank'>Code</a>
     </li>
     <li>
-      [05-15] 【<b>MIPHEI</b>】<i>MIPHEI-ViT: Multiplex Immunofluorescence Prediction from H&E Images using ViT Foundation Models. <b>preprint</b>.</i>
+      [05-15] 【<b>MIPHEI</b>】<i>MIPHEI-ViT: Multiplex Immunofluorescence Prediction from H&E Images using ViT Foundation Models. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2505.10294' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/sanofi-public/miphei-vit' target='_blank'>Code</a>
     </li>
@@ -559,12 +602,12 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   <summary><b>&nbsp;2025 (2)</b></summary>
   <ul>
     <li>
-      [12-17] 【<b>SpatialEx/SpatialEx+</b>】<i>High-parameter spatial multi-omics through histology-anchored integration. <b>NMethods</b>.</i>
+      [12-17] 【<b>SpatialEx/SpatialEx+</b>】<i>High-parameter spatial multi-omics through histology-anchored integration. <b>NAT Methods</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41592-025-02926-6' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/KEAML-JLU/SpatialEx' target='_blank'>Code</a>
     </li>
     <li>
-      [12-13] 【<b>TissueCraftAI </b>】<i>Query-driven generative AI synthesizes multi-modal spatial omics from histology. <b>preprint</b>.</i>
+      [12-13] 【<b>TissueCraftAI </b>】<i>Query-driven generative AI synthesizes multi-modal spatial omics from histology. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.64898/2025.12.11.693669v1.full.pdf' target='_blank'>Article</a>
     </li>
   </ul>
@@ -576,12 +619,12 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   <summary><b>&nbsp;2025 (4)</b></summary>
   <ul>
     <li>
-      [02-21] 【<b>HistoCell</b>】<i>Systematic inference of super-resolution cell spatial profiles from histology images. <b>NC</b>.</i>
+      [02-21] 【<b>HistoCell</b>】<i>Systematic inference of super-resolution cell spatial profiles from histology images. <b>NAT COMMUN</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-025-57072-6.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/recolyce/HistoCell' target='_blank'>Code</a>
     </li>
     <li>
-      [09-02] 【<b>HistoPLUS </b>】<i>Towards Comprehensive Cellular Characterisation of H&E slides. <b>preprint</b>.</i>
+      [09-02] 【<b>HistoPLUS </b>】<i>Towards Comprehensive Cellular Characterisation of H&E slides. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2508.09926v3' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/owkin/histoplus/' target='_blank'>Code</a>
     </li>
@@ -602,7 +645,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   <summary><b>&nbsp;2024 (1)</b></summary>
   <ul>
     <li>
-      [11-27] 【<b>Hist2Cell</b>】<i>Hist2Cell: Deciphering Fine-grained Cellular Architectures from Histology Images. <b>preprint</b>.</i>
+      [11-27] 【<b>Hist2Cell</b>】<i>Hist2Cell: Deciphering Fine-grained Cellular Architectures from Histology Images. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2024.02.17.580852v3.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/Weiqin-Zhao/Hist2Cell' target='_blank'>Code</a>
     </li>
@@ -615,7 +658,7 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
   <summary><b>&nbsp;2025 (1)</b></summary>
   <ul>
     <li>
-      [11-28] 【<b>DeepPathway</b>】<i>DeepPathway: Predicting Pathway Expression from Histopathology Images. <b>preprint</b>.</i>
+      [11-28] 【<b>DeepPathway</b>】<i>DeepPathway: Predicting Pathway Expression from Histopathology Images. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/biorxiv/early/2025/11/28/2025.07.21.665956.full.pdf' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/aahsan045/DeepPathway' target='_blank'>Code</a>
     </li>
@@ -626,11 +669,21 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE RBE</b>.<
 
 - [computer_vision_spatial_omics](https://github.com/hrlblab/computer_vision_spatial_omics)
 
-- [Medical-Foundation-Models](https://github.com/WuLabMDA/Medical-Foundation-Models)
-
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics)
 
 - [Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation](https://github.com/ZZhangsm/Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation)
+
+- [Awesome-Computational-Pathology-Papers](https://github.com/DearCaat/Awesome-Computational-Pathology-Papers)
+
+- [awesome-pathology](https://github.com/open-pathology/awesome-pathology)
+
+- [Awesome-Foundation-Models-for-Pathology-Image-Analysis](https://github.com/dmhdmhdmh/Awesome-Foundation-Models-for-Pathology-Image-Analysis)
+
+- [Medical-Foundation-Models](https://github.com/WuLabMDA/Medical-Foundation-Models)
+
+- [Awesome-AI-Pathology](https://github.com/wyh196646/Awesome-AI-Pathology)
+
+- [Awesome-Spatial-Transcriptomics-Pathology-Large-Models](https://github.com/2BF-Club/Awesome-Spatial-Transcriptomics-Pathology-Large-Models)
 
 ## ❤️ Contributing​
 
