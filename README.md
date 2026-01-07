@@ -1196,23 +1196,41 @@ histopathology-to-genomic prediction, etc.
 
 ### Hist to Multi-Omics
 
-<details open> <!--2025-->
-  <summary><b>&nbsp;2025 (2)</b></summary>
-  <ul>
-    <li>
-      [12-17] 【<b>SpatialEx/SpatialEx+</b>】<i>High-parameter spatial multi-omics through histology-anchored integration.
-        <b>NAT Methods</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41592-025-02926-6'
-        target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://github.com/KEAML-JLU/SpatialEx' target='_blank'>Code</a>
-    </li>
-    <li>
-      [12-13] 【<b>TissueCraftAI </b>】<i>Query-driven generative AI synthesizes multi-modal spatial omics from histology.
-        <b>PrePrint</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.64898/2025.12.11.693669v1.full.pdf'
-        target='_blank'>Article</a>
-    </li>
-  </ul>
+<details open>
+<summary><b><span style="font-size: 1.3em;">&nbsp;2025 (2)</span></b></summary>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Date</th>
+<th>Method</th>
+<th>Title</th>
+<th>Source</th>
+<th>Paper</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">2</td>
+<td align="center">12/17</td>
+<td align="center">SpatialEx+</td>
+<td align="center"><i>High-parameter spatial multi-omics through histology-anchored integration</i></td>
+<td align="center"><b>NAT Methods</b></td>
+<td align="center"><a href='https://www.nature.com/articles/s41592-025-02926-6' target='_blank'><img src='./assets/paper.png' /></a></td>
+<td align="center"><a href='https://github.com/KEAML-JLU/SpatialEx' target='_blank'><img src='./assets/code.png' /></a></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">12/13</td>
+<td align="center">TissueCraftAI</td>
+<td align="center"><i>Query-driven generative AI synthesizes multi-modal spatial omics from histology</i></td>
+<td align="center"><b>PrePrint</b></td>
+<td align="center"><a href='https://www.biorxiv.org/content/10.64898/2025.12.11.693669v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
+<td align="center">❌</td>
+</tr>
+</tbody>
+</table>
 </details>
 
 
