@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://awesome.re/badge.svg" alt="Awesome">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/UPDATE-2026--01--06-orange" alt="Update">
+  <img src="https://img.shields.io/badge/UPDATE-2026--01--07-orange" alt="Update">
 </p>
 
 ## 🚀 Introduction
@@ -14,17 +14,17 @@ histopathology-to-genomic prediction, etc.
 
 ## 📋 Table of Contents
 
-- [🔎 Survey/Review/Benchmark/Protocol Papers List](#-surveyreviewbenchmark-protocol-papers-list)
-- [🔬 Research Papers List](#-research-papers-list)
+- 🔎 [Survey/Review/Benchmark/Protocol Papers List](#-surveyreviewbenchmark-protocol-papers-list)
+- 🔬 [Research Papers List](#-research-papers-list)
   - [Hist to Genomics/Transcriptomics](#hist-to-genomicstranscriptomics)
   - [Hist to Proteomics](#hist-to-proteomics)
   - [Hist to Multi-omics](#hist-to-multi-omics)
   - [Hist to Cell](#hist-to-cell)
   - [Hist to Pathology](#hist-to-pathology)
-- [🔗 Related Repositories](#-related-repositories)
-- [❤️ Contributing](#-contributing)
-- [⭐ Citation](#-citation)
-- [📧 Contact](#-contact)
+- 🔗 [Related Repositories](#-related-repositories)
+- ❤️ [Contributing](#-contributing)
+- ⭐ [Citation](#-citation)
+- 📧 [Contact](#-contact)
 
 ## 🔎 Survey/Review/Benchmark/Protocol Papers List
 
