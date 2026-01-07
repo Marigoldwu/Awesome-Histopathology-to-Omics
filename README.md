@@ -1,4 +1,4 @@
-<h1 align="center">🧬 Awesome-Histopathology-to-Omics</h1>
+<h1 align="center" id="awesome-histopathology-to-omics">🧬 Awesome-Histopathology-to-Omics</h1>
 
 <p align="center">
   <img src="https://awesome.re/badge.svg" alt="Awesome">
@@ -16,11 +16,11 @@ histopathology-to-genomic prediction, etc.
 
 - [🔎 Survey/Review/Benchmark/Protocol Papers List](#-surveyreviewbenchmark-protocol-papers-list)
 - [🔬 Research Papers List](#-research-papers-list)
-- [Hist to Genomics/Transcriptomics](#hist-to-genomicstranscriptomics)
-- [Hist to Proteomics](#hist-to-proteomics)
-- [Hist to Multi-omics](#hist-to-multi-omics)
-- [Hist to Cell](#hist-to-cell)
-- [Hist to Pathology](-hist-to-pathology)
+  - [Hist to Genomics/Transcriptomics](#hist-to-genomicstranscriptomics)
+  - [Hist to Proteomics](#hist-to-proteomics)
+  - [Hist to Multi-omics](#hist-to-multi-omics)
+  - [Hist to Cell](#hist-to-cell)
+  - [Hist to Pathology](#hist-to-pathology)
 - [🔗 Related Repositories](#-related-repositories)
 - [❤️ Contributing](#-contributing)
 - [⭐ Citation](#-citation)
@@ -192,7 +192,7 @@ histopathology-to-genomic prediction, etc.
         <td align="center"><b>WACV</b></td>
         <td align="center"><a href='https://arxiv.org/pdf/2507.14670' target='_blank'><img src='./assets/paper.png' /></a></td>
         <td align="center"><a href='https://github.com/YXSong000/Gene-DML' target='_blank'><img src='./assets/code.png' /></a></td>
-      </tr> src='./assets/code.png' /></a></td>
+      </tr></td>
       </tr>
       <tr>
         <td align="center">49</td>
@@ -1356,22 +1356,19 @@ histopathology-to-genomic prediction, etc.
 
 - [awesome_spatial_omics](https://github.com/crazyhottommy/awesome_spatial_omics)
 
--
-[Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation](https://github.com/ZZhangsm/Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation)
+- [Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation](https://github.com/ZZhangsm/Awesome-HistoPathology-to-Spatial-Transcriptomics-Translation)
 
 - [Awesome-Computational-Pathology-Papers](https://github.com/DearCaat/Awesome-Computational-Pathology-Papers)
 
 - [awesome-pathology](https://github.com/open-pathology/awesome-pathology)
 
--
-[Awesome-Foundation-Models-for-Pathology-Image-Analysis](https://github.com/dmhdmhdmh/Awesome-Foundation-Models-for-Pathology-Image-Analysis)
+- [Awesome-Foundation-Models-for-Pathology-Image-Analysis](https://github.com/dmhdmhdmh/Awesome-Foundation-Models-for-Pathology-Image-Analysis)
 
 - [Medical-Foundation-Models](https://github.com/WuLabMDA/Medical-Foundation-Models)
 
 - [Awesome-AI-Pathology](https://github.com/wyh196646/Awesome-AI-Pathology)
 
--
-[Awesome-Spatial-Transcriptomics-Pathology-Large-Models](https://github.com/2BF-Club/Awesome-Spatial-Transcriptomics-Pathology-Large-Models)
+- [Awesome-Spatial-Transcriptomics-Pathology-Large-Models](https://github.com/2BF-Club/Awesome-Spatial-Transcriptomics-Pathology-Large-Models)
 
 ## ❤️ Contributing​
 
@@ -1450,3 +1447,5 @@ Please star this repository if you find it helpful!
 
 For any questions or suggestions, feel free to open an issue or contact me at
 [bywu109@gmail.com](mailto:bywu109@gmail.com).
+
+<p align='right'>(<a href='#awesome-histopathology-to-omics'>Back to Top</a>)</p>
