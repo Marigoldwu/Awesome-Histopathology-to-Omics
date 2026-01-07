@@ -1194,46 +1194,73 @@ histopathology-to-genomic prediction, etc.
   </table>
 </details>
 
+<details open>
+  <summary><b><span style="font-size: 1.3em;">&nbsp;2022 (1)</span></b></summary>
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Date</th>
+        <th>Method</th>
+        <th>Title</th>
+        <th>Source</th>
+        <th>Paper</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">04/07</td>
+        <td align="center">DeepLIIF</td>
+        <td align="center"><i>Deep learning-inferred multiplex immunofluorescence for immunohistochemical image quantification</i></td>
+        <td align="center"><b>NMI</b></td>
+        <td align="center"><a href='https://www.nature.com/articles/s42256-022-00471-x' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center"><a href='https://github.com/nadeemlab/DeepLIIF' target='_blank'><img src='./assets/code.png' /></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
 ### Hist to Multi-Omics
 
 <details open>
 <summary><b><span style="font-size: 1.3em;">&nbsp;2025 (2)</span></b></summary>
 <table>
-<thead>
-<tr>
-<th>No.</th>
-<th>Date</th>
-<th>Method</th>
-<th>Title</th>
-<th>Source</th>
-<th>Paper</th>
-<th>Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">2</td>
-<td align="center">12/17</td>
-<td align="center">SpatialEx+</td>
-<td align="center"><i>High-parameter spatial multi-omics through histology-anchored integration</i></td>
-<td align="center"><b>NAT Methods</b></td>
-<td align="center"><a href='https://www.nature.com/articles/s41592-025-02926-6' target='_blank'><img src='./assets/paper.png' /></a></td>
-<td align="center"><a href='https://github.com/KEAML-JLU/SpatialEx' target='_blank'><img src='./assets/code.png' /></a></td>
-</tr>
-<tr>
-<td align="center">1</td>
-<td align="center">12/13</td>
-<td align="center">TissueCraftAI</td>
-<td align="center"><i>Query-driven generative AI synthesizes multi-modal spatial omics from histology</i></td>
-<td align="center"><b>PrePrint</b></td>
-<td align="center"><a href='https://www.biorxiv.org/content/10.64898/2025.12.11.693669v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
-<td align="center">❌</td>
-</tr>
+  <thead>
+    <tr>
+        <th>No.</th>
+        <th>Date</th>
+        <th>Method</th>
+        <th>Title</th>
+        <th>Source</th>
+        <th>Paper</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">2</td>
+        <td align="center">12/17</td>
+        <td align="center">SpatialEx+</td>  
+        <td align="center"><i>High-parameter spatial multi-omics through histology-anchored integration</i></td>
+        <td align="center"><b>NAT Methods</b></td>
+        <td align="center"><a href='https://www.nature.com/articles/s41592-025-02926-6' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center"><a href='https://github.com/KEAML-JLU/SpatialEx' target='_blank'><img src='./assets/code.png' /></a></td>
+      </tr>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">12/13</td>
+        <td align="center">TissueCraftAI</td>
+        <td align="center"><i>Query-driven generative AI synthesizes multi-modal spatial omics from histology</i></td>
+        <td align="center"><b>PrePrint</b></td>
+        <td align="center"><a href='https://www.biorxiv.org/content/10.64898/2025.12.11.693669v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center">❌</td>
+      </tr>
 </tbody>
 </table>
 </details>
-
-
 
 ### Hist to Cell
 
