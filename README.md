@@ -25,53 +25,115 @@ A curated collection of papers, codes, and resources for cross-modal translation
 - [📧 Contact](#-contact)
 
 ## 🔎 Survey/Review/Benchmark/Protocol Papers List
+
 <details open>
-<summary><b>&nbsp;2025 (6)</b></summary>
-<ul>
-    <li>
-      [10-28] 【<b>Survey</b>】<i>Content Generation Models in Computational Pathology: A
-Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE Rev Biomed Eng</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://oar.a-star.edu.sg/storage/o/ozokdvm7xw/content-generation-models-in-computational-pathology.pdf' target='_blank'>Article</a>
-    </li>
-    <li>
-      [10-14] 【<b>Survey</b>】<i>Computer Vision Methods for Spatial Transcriptomics: A Survey. <b>PrePrint</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.10.13.682148v1.full.pdf' target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://github.com/hrlblab/computer_vision_spatial_omics' target='_blank'>Code</a>
-    </li>
-    <li>
-      [09-09] 【<b>Data-quality Benchmark</b>】<i>Impact of Data Quality on Deep Learning Prediction of Spatial Transcriptomics from Histology Images. <b>PrePrint</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.1101/2025.09.04.674228v1.full.pdf' target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://github.com/calebhallinan/dataquality_geneprediction' target='_blank'>Code</a>
-    </li>
-    <li>
-      [08-19] 【<b>SpaCKLE</b>】<i>Completing spatial transcriptomics data for gene expression prediction benchmarking. <b>MEDIA</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.sciencedirect.com/science/article/pii/S1361841525003019' target='_blank'>Article</a>
-    </li>
-    <li>
-      [05-13] 【<b>Survey</b>】<i>Combining spatial transcriptomics with tissue morphology. <b>NAT COMMUN</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://doi.org/10.1038/s41467-025-58989-8' target='_blank'>Article</a>
-    </li>
-    <li>
-      [02-11] 【<b>HEtoSGEBench</b>】<i>Benchmarking the translational potential of spatial gene expression prediction from histology. <b>NAT COMMUN</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-025-56618-y' target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://github.com/SydneyBioX/HEtoSGEBench' target='_blank'>Code</a>
-    </li>
-</ul>
+<summary><b><span style="font-size: 1.3em;">&nbsp;2025 (6)</span></b></summary>
+<table>
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Date</th>
+      <th>Method</th>
+      <th>Title</th>
+      <th>Source</th>
+      <th>Paper</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">6</td>
+      <td align="center">10/28</td>
+      <td align="center">Survey</td>
+      <td align="center"><i>Content Generation Models in Computational Pathology: A Comprehensive Survey on Methods, Applications, and Challenges</i></td>
+      <td align="center"><b>IEEE Rev Biomed Eng</b></td>
+      <td align="center"><a href='https://oar.a-star.edu.sg/storage/o/ozokdvm7xw/content-generation-models-in-computational-pathology.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="center">5</td>
+      <td align="center">10/14</td>
+      <td align="center">Survey</td>
+      <td align="center"><i>Computer Vision Methods for Spatial Transcriptomics: A Survey</i></td>
+      <td align="center"><b>PrePrint</b></td>
+      <td align="center"><a href='https://www.biorxiv.org/content/10.1101/2025.10.13.682148v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center"><a href='https://github.com/hrlblab/computer_vision_spatial_omics' target='_blank'><img src='./assets/code.png' /></a></td>
+    </tr>
+    <tr>
+      <td align="center">4</td>
+      <td align="center">09/09</td>
+      <td align="center">Data-quality Benchmark</td>
+      <td align="center"><i>Impact of Data Quality on Deep Learning Prediction of Spatial Transcriptomics from Histology Images</i></td>
+      <td align="center"><b>PrePrint</b></td>
+      <td align="center"><a href='https://www.biorxiv.org/content/10.1101/2025.09.04.674228v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center"><a href='https://github.com/calebhallinan/dataquality_geneprediction' target='_blank'><img src='./assets/code.png' /></a></td>
+    </tr>
+    <tr>
+      <td align="center">3</td>
+      <td align="center">08/19</td>
+      <td align="center">SpaCKLE</td>
+      <td align="center"><i>Completing spatial transcriptomics data for gene expression prediction benchmarking</i></td>
+      <td align="center"><b>MEDIA</b></td>
+      <td align="center"><a href='https://www.sciencedirect.com/science/article/pii/S1361841525003019' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center"><a href='https://github.com/calebhallinan/SpaCKLE' target='_blank'><img src='./assets/code.png' /></a></td>
+    </tr>
+    <tr>
+      <td align="center">2</td>
+      <td align="center">05/13</td>
+      <td align="center">Survey</td>
+      <td align="center"><i>Combining spatial transcriptomics with tissue morphology</i></td>
+      <td align="center"><b>NAT COMMUN</b></td>
+      <td align="center"><a href='https://doi.org/10.1038/s41467-025-58989-8' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="center">1</td>
+      <td align="center">02/11</td>
+      <td align="center">HEtoSGEBench</td>
+      <td align="center"><i>Benchmarking the translational potential of spatial gene expression prediction from histology</i></td>
+      <td align="center"><b>NAT COMMUN</b></td>
+      <td align="center"><a href='https://www.nature.com/articles/s41467-025-56618-y' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center"><a href='https://github.com/SydneyBioX/HEtoSGEBench' target='_blank'><img src='./assets/code.png' /></a></td>
+    </tr>
+  </tbody>
+</table>
 </details>
 
 <details open>
-<summary><b>&nbsp;2024 (2)</b></summary>
-<ul>
-    <li>
-      [12-01] 【<b>Survey</b>】<i>Computational Methods for Breast Cancer Molecular Profiling through Routine Histopathology: A Review. <b>PrePrint</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2412.10392' target='_blank'>Article</a>
-    </li>
-    <li>
-      [09-16] 【<b>STAMP</b>】<i>From whole-slide image to biomarker prediction: end-to-end weakly supervised deep learning in computational pathology. <b>NAT PROTOC</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2412.10392' target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://github.com/KatherLab/STAMP' target='_blank'>Code</a>
-    </li>
-</ul>
+<summary><b><span style="font-size: 1.3em;">&nbsp;2024 (2)</span></b></summary>
+<table>
+  <thead>
+    <tr>
+      <th>No.</th>
+      <th>Date</th>
+      <th>Method</th>
+      <th>Title</th>
+      <th>Source</th>
+      <th>Paper</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">2</td>
+      <td align="center">12/01</td>
+      <td align="center">Survey</td>
+      <td align="center"><i>Computational Methods for Breast Cancer Molecular Profiling through Routine Histopathology: A Review</i></td>
+      <td align="center"><b>PrePrint</b></td>
+      <td align="center"><a href='https://arxiv.org/pdf/2412.10392' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="center">1</td>
+      <td align="center">09/16</td>
+      <td align="center">STAMP</td>
+      <td align="center"><i>From whole-slide image to biomarker prediction: end-to-end weakly supervised deep learning in computational pathology</i></td>
+      <td align="center"><b>NAT PROTOC</b></td>
+      <td align="center"><a href='https://arxiv.org/pdf/2412.10392' target='_blank'><img src='./assets/paper.png' /></a></td>
+      <td align="center"><a href='https://github.com/KatherLab/STAMP' target='_blank'><img src='./assets/code.png' /></a></td>
+    </tr>
+  </tbody>
+</table>
 </details>
 
 ## 🔬 Research Papers List
@@ -553,16 +615,6 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE Rev Biome
   <summary><b>&nbsp;2025 (5)</b></summary>
   <ul>
     <li>
-      [08-16] 【<b>ROISE</b>】<i>ROSIE: AI generation of multiplex immunofluorescence staining from histopathology images. <b>NAT COMMUN</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-025-62346-0.pdf' target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://gitlab.com/enable-medicine-public/rosie' target='_blank'>Code</a>
-    </li>
-    <li>
-      [08-04] 【<b>HistoPlexer</b>】<i>Histopathology-based protein multiplex generation using deep learning. <b>NMI</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s42256-025-01074-y' target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://github.com/ratschlab/HistoPlexer' target='_blank'>Code</a>
-    </li>
-    <li>
       [12-12] 【<b>Eva</b>】<i>Modeling patient tissues at molecular resolution with Eva. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://www.biorxiv.org/content/10.64898/2025.12.10.693553v1' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/YAndrewL/Eva' target='_blank'>Code</a>
@@ -571,6 +623,16 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE Rev Biome
       [12-09] 【<b>GigaTIME</b>】<i>Multimodal AI generates virtual population for tumormicroenvironment modeling. <b>Cell</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://doi.org/10.1016/j.cell.2025.11.016' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://aka.ms/gigatime_code' target='_blank'>Code</a>
+    </li>
+    <li>
+      [08-16] 【<b>ROISE</b>】<i>ROSIE: AI generation of multiplex immunofluorescence staining from histopathology images. <b>NAT COMMUN</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s41467-025-62346-0.pdf' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://gitlab.com/enable-medicine-public/rosie' target='_blank'>Code</a>
+    </li>
+    <li>
+      [08-04] 【<b>HistoPlexer</b>】<i>Histopathology-based protein multiplex generation using deep learning. <b>NMI</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://www.nature.com/articles/s42256-025-01074-y' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/ratschlab/HistoPlexer' target='_blank'>Code</a>
     </li>
     <li>
       [05-15] 【<b>MIPHEI</b>】<i>MIPHEI-ViT: Multiplex Immunofluorescence Prediction from H&E Images using ViT Foundation Models. <b>PrePrint</b>.</i>
@@ -624,6 +686,11 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE Rev Biome
       <img src='./assets/code.png' /> <a href='https://github.com/recolyce/HistoCell' target='_blank'>Code</a>
     </li>
     <li>
+      [09-03] 【<b>HPCell </b>】<i>Accurately Predicting Cell Type Abundance from Spatial Histology Image Through HPCell. <b>ISC</b>.</i>
+      <img src='./assets/paper.png' /> <a href='https://link.springer.com/article/10.1007/s12539-025-00757-9' target='_blank'>Article</a>
+      <img src='./assets/code.png' /> <a href='https://github.com/VitaIntelli-CQU/HPCell' target='_blank'>Code</a>
+    </li>
+    <li>
       [09-02] 【<b>HistoPLUS </b>】<i>Towards Comprehensive Cellular Characterisation of H&E slides. <b>PrePrint</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://arxiv.org/pdf/2508.09926v3' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/owkin/histoplus/' target='_blank'>Code</a>
@@ -632,11 +699,6 @@ Comprehensive Survey on Methods, Applications, and Challenges. <b>IEEE Rev Biome
       [07-25] 【<b>CUCA </b>】<i>Predicting fine-grained cell types from histology images through cross-modal learning in spatial transcriptomics . <b>Bioinfo</b>.</i>
       <img src='./assets/paper.png' /> <a href='https://doi.org/10.1093/bioinformatics/btaf201' target='_blank'>Article</a>
       <img src='./assets/code.png' /> <a href='https://github.com/lyotvincent/CUCA' target='_blank'>Code</a>
-    </li>
-    <li>
-      [09-03] 【<b>HPCell </b>】<i>Accurately Predicting Cell Type Abundance from Spatial Histology Image Through HPCell. <b>ISC</b>.</i>
-      <img src='./assets/paper.png' /> <a href='https://link.springer.com/article/10.1007/s12539-025-00757-9' target='_blank'>Article</a>
-      <img src='./assets/code.png' /> <a href='https://github.com/VitaIntelli-CQU/HPCell' target='_blank'>Code</a>
     </li>
   </ul>
 </details>
