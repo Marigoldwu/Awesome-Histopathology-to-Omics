@@ -1194,7 +1194,7 @@ histopathology-to-genomic prediction, etc.
   </table>
 </details>
 
-<details open>
+<!-- <details open>
   <summary><b><span style="font-size: 1.3em;">&nbsp;2022 (1)</span></b></summary>
   <table>
     <thead>
@@ -1221,7 +1221,7 @@ histopathology-to-genomic prediction, etc.
       </tr>
     </tbody>
   </table>
-</details>
+</details> -->
 
 ### Hist to Multi-Omics
 
