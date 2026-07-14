@@ -165,6 +165,12 @@ histopathology-to-genomic prediction, etc.
         <td align="center">PrePrint</td>
         <td align="center"><a href='https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
         <td align="center"><a href='https://github.com/ratschlab/DeepSpotM' target='_blank'><img src='./assets/code.png' /></a></td>
+        <td align="center">06/04</td>
+        <td align="center">AESTETIK</td>
+        <td align="center"><i>Representation learning for multi-modal spatially resolved transcriptomics data</i></td>
+        <td align="center">Bioinformatics</td>
+        <td align="center"><a href='https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center"><a href='https://github.com/ratschlab/aestetik' target='_blank'><img src='./assets/code.png' /></a></td>
       </tr>
     </tbody>
   </table>
@@ -681,8 +687,7 @@ histopathology-to-genomic prediction, etc.
         <th>Code</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
+    <tbody>      <tr>
         <td align="center">19</td>
         <td align="center">12/19</td>
         <td align="center">HistoTME</td>
