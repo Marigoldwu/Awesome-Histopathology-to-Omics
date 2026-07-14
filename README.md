@@ -143,6 +143,34 @@ histopathology-to-genomic prediction, etc.
 ### Hist to Genomics/Transcriptomics
 
 <details open>
+  <summary><b><span style="font-size: 1.3em;">&nbsp;2026 (1)</span></b></summary>
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Date</th>
+        <th>Method</th>
+        <th>Title</th>
+        <th>Source</th>
+        <th>Paper</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">1</td>
+        <td align="center">06/04</td>
+        <td align="center">AESTETIK</td>
+        <td align="center"><i>Representation learning for multi-modal spatially resolved transcriptomics data</i></td>
+        <td align="center">Bioinformatics</td>
+        <td align="center"><a href='https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btag316/8692433' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center"><a href='https://github.com/ratschlab/aestetik' target='_blank'><img src='./assets/code.png' /></a></td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+<details open>
   <summary><b><span style="font-size: 1.3em;">&nbsp;2025 (53)</span></b></summary>
   <table>
     <thead>
@@ -640,7 +668,7 @@ histopathology-to-genomic prediction, etc.
 </details>
 
 <details open>
-  <summary><b><span style="font-size: 1.3em;">&nbsp;2024 (20)</span></b></summary>
+  <summary><b><span style="font-size: 1.3em;">&nbsp;2024 (19)</span></b></summary>
   <table>
     <thead>
       <tr>
@@ -653,17 +681,7 @@ histopathology-to-genomic prediction, etc.
         <th>Code</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td align="center">20</td>
-        <td align="center">06/04</td>
-        <td align="center">AESTETIK</td>
-        <td align="center"><i>Representation learning for multi-modal spatially resolved transcriptomics data</i></td>
-        <td align="center">PrePrint</td>
-        <td align="center"><a href='https://www.medrxiv.org/content/10.1101/2024.06.04.24308256v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
-        <td align="center"><a href='https://github.com/ratschlab/aestetik' target='_blank'><img src='./assets/code.png' /></a></td>
-      </tr>
-      <tr>
+    <tbody>      <tr>
         <td align="center">19</td>
         <td align="center">12/19</td>
         <td align="center">HistoTME</td>
