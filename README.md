@@ -300,7 +300,7 @@ histopathology-to-genomic prediction, etc.
         <td align="center"><i>DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision</i></td>
         <td align="center">NeurIPS</td>
         <td align="center"><a href='https://openreview.net/forum?id=ofCkwXQKaz' target='_blank'><img src='./assets/paper.png' /></a></td>
-        <td align="center"><a href='https://github.com/ratschlab/DeepSpot' target='_blank'><img src='./assets/code.png' /></a></td>
+        <td align="center"><a href='https://github.com/ratschlab/DeepSpot2Cell' target='_blank'><img src='./assets/code.png' /></a></td>
       </tr>
       <tr>
         <td align="center">37</td>
