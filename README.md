@@ -143,7 +143,7 @@ histopathology-to-genomic prediction, etc.
 ### Hist to Genomics/Transcriptomics
 
 <details open>
-  <summary><b><span style="font-size: 1.3em;">&nbsp;2026 (1)</span></b></summary>
+  <summary><b><span style="font-size: 1.3em;">&nbsp;2026 (5)</span></b></summary>
   <table>
     <thead>
       <tr>
@@ -158,13 +158,43 @@ histopathology-to-genomic prediction, etc.
     </thead>
     <tbody>
       <tr>
-        <td align="center">1</td>
+        <td align="center">5</td>
+        <td align="center">11/17</td>
+        <td align="center">DeepSpot-M (kidney)</td>
+        <td align="center"><i>Virtual spatial transcriptomics links kidney histopathology to disease-associated molecular programs</i></td>
+        <td align="center">PrePrint</td>
+        <td align="center"><a href='https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center"><a href='https://github.com/ratschlab/projects2026-kidney-kpmp-analysis' target='_blank'><img src='./assets/code.png' /></a></td>
+      </tr>
+      <tr>
+        <td align="center">4</td>
+        <td align="center">11/17</td>
+        <td align="center">KPMP-vST (dataset)</td>
+        <td align="center"><i>KPMP virtual spatial transcriptomics atlas</i></td>
+        <td align="center">Hugging Face</td>
+        <td align="center"><a href='https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center"><a href='https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas' target='_blank'><img src='./assets/code.png' /></a></td>
+      </tr>
+      <tr>
+        <td align="center">3</td>
+        <td align="center">11/17</td>
+        <td align="center">KPMP-Xenium-vST (dataset)</td>
+        <td align="center"><i>KPMP Xenium virtual spatial transcriptomics</i></td>
+        <td align="center">Hugging Face</td>
+        <td align="center"><a href='https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1' target='_blank'><img src='./assets/paper.png' /></a></td>
+        <td align="center"><a href='https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics' target='_blank'><img src='./assets/code.png' /></a></td>
+      </tr>
+      <tr>
+        <td align="center">2</td>
         <td align="center">06/19</td>
         <td align="center">DeepSpot-M</td>
         <td align="center"><i>DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology</i></td>
         <td align="center">PrePrint</td>
         <td align="center"><a href='https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1.full.pdf' target='_blank'><img src='./assets/paper.png' /></a></td>
         <td align="center"><a href='https://github.com/ratschlab/DeepSpotM' target='_blank'><img src='./assets/code.png' /></a></td>
+      </tr>
+      <tr>
+        <td align="center">1</td>
         <td align="center">06/04</td>
         <td align="center">AESTETIK</td>
         <td align="center"><i>Representation learning for multi-modal spatially resolved transcriptomics data</i></td>
@@ -687,7 +717,8 @@ histopathology-to-genomic prediction, etc.
         <th>Code</th>
       </tr>
     </thead>
-    <tbody>      <tr>
+    <tbody>
+      <tr>
         <td align="center">19</td>
         <td align="center">12/19</td>
         <td align="center">HistoTME</td>
